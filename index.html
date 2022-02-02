@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <img src="https://picsum.photos/30" alt="">
+          FrameworkCSS
+        </div>
+        <div class="nav-links">
+          <a href="#">Inicio</a>
+          <a href="#" class="active">Nosotros</a>
+          <a href="#">Ingresar</a>
+          <a href="#">Ingresar</a>
+          <a href="#">Ingresar</a>
+          <a href="#">Ingresar</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Headers</h2>
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+  </section>
+
+  <section class="container">
+    <h2>Display</h2>
+    <h2 class="display">Display</h2>
+  </section>
+  
+  <section class="container">
+    <h2>Card</h2>
+    <div class="card">
+      Card
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Grid</h2>
+    <div class="grid col-1 col-md-2 col-xl-6">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+      <div class="card">Card 4</div>
+      <div class="card">Card 5</div>
+    </div>
+
+    <hr>
+
+    <div class="grid col-md-3 col-1">
+      <div class="grid span-2">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+      </div>
+      <div class="card">Card 3</div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Formulario</h2>
+    <form action="" class="form">
+      <input type="text" class="input" name="username" id="username" placeholder="Username">
+      <input type="password" class="input" name="password" id="password" placeholder="Password">
+      <div>
+        <button class="btn btn-primary border-bottom-effect">Enviar</button>
+        <button class="btn btn-secondary border-bottom-effect">Cancelar</button>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>
