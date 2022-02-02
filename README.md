@@ -15,4 +15,4 @@ Basado en [Aprende a crear tu propio Framework de CSS estilo Bootstrap | Respons
 - Página 404 en caso de ruta no válida
 
 ## Demo
-[https://lautaroriveiro.github.io/framework-css](https://lautaroriveiro.github.io/framework-css)
+[https://lautaroriveiro.github.io/css-framework/](https://lautaroriveiro.github.io/css-framework/)
